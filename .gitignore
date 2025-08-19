@@ -1,1 +1,31 @@
+# Data
+data/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.parquet
 
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.log
+
+# Environment and IDE files
+.venv
+venv/
+env/
+.idea/
+.vscode/
+
+# Google Colab specific files
+*.gdoc
+*.gsheet
+*.ipynb_checkpoints
+/content/
+
+# Large files
+*.h5
+*.pkl
+*.bin
